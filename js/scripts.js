@@ -7,5 +7,5 @@ function getTriangleArea(a, h) {
     if ((a<=0)||(h<=0)) {
       console.log ("Niewłaściwe dane"); }
       else {
-        console.log (result); }
+        return result; }
 }
